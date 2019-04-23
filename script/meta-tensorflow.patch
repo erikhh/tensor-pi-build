@@ -1,0 +1,13 @@
+diff --git a/conf/layer.conf b/conf/layer.conf
+index 149b9a3..352c2bc 100644
+--- a/conf/layer.conf
++++ b/conf/layer.conf
+@@ -11,7 +11,7 @@ BBFILE_PRIORITY_meta-tensorflow = "10"
+ 
+ LAYERVERSION_meta-tensorflow = "1"
+ 
+-LAYERSERIES_COMPAT_meta-tensorflow = "warrior"
++LAYERSERIES_COMPAT_meta-tensorflow = "thud"
+ 
+ LAYERDEPENDS_meta-tensorflow = " \
+     core \

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git"    name="yocto"/>
+  <remote fetch="https://github.com/mendersoftware"   name="mender"/>
+  <remote fetch="https://github.com/openembedded"     name="openembedded"/>
+  <remote fetch="https://github.com/erikhh"           name="erikhh"/>
+  <remote fetch="https://github.com/hongxu-jia"       name="tensorflow" />
+  <remote fetch="https://github.com/EmbeddedAndroid"  name="embedded-android" />
+
+  <project remote="yocto"             revision="thud"   name="meta-java"          path="meta-java" />
+  <project remote="tensorflow"        revision="master" name="meta-tensorflow"    path="meta-tensorflow"/>
+  <project remote="embedded-android"  revision="master" name="meta-rtlwifi"       path="meta-rtlwifi" />
+  <project remote="mender"            revision="thud"   name="meta-mender"        path="meta-mender"/>
+  <project remote="erikhh"            revision="thud"   name="meta-openembedded"  path="meta-openembedded"/>
+  <project remote="yocto"             revision="thud"   name="meta-raspberrypi"   path="meta-raspberrypi"/>
+  <project remote="yocto"             revision="thud"   name="poky"               path="poky"/>
+</manifest>
